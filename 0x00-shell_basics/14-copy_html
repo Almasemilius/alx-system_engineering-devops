@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.html" | xargs -I {} cp -nv -- {} "$(dirname {})/.."
+cp -v ./*.html ./
