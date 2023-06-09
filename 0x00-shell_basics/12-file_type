@@ -1,2 +1,2 @@
 #!/bin/bash
-stat -c "%F" /tmp/iamafile
+find /tmp/iamafile -type f -printf "%f"
