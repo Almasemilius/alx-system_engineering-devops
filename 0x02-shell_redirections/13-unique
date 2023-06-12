@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -vxf <(sort input.txt | uniq -d) <(sort input.txt) | sort
