@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "BEST=\"School\"" | tee -a ~/.bashrc && source ~/.bashrc
+export BEST="School"
