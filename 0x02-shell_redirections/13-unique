@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -vxf <(sort input.txt | uniq -d) <(sort input.txt) | sort
+tr '[:upper:]' '[:lower:]' | sort | uniq -u
