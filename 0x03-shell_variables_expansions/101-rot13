@@ -1,0 +1,2 @@
+#!/bin/bash
+encoded_text=$(echo "$input_text" | tr 'A-Za-z' 'N-ZA-Mn-za-m') | decoded_text=$(echo "$encoded_text" | tr 'A-Za-z' 'N-ZA-Mn-za-m')
