@@ -1,2 +1,2 @@
 #!/bin/bash
-getent passwd | sort -t: -k1,1 | awk -F: '{ print "User:", $1, "\tHome Directory:", $6 }'
+cat /etc/passwd | cut -d: -f1,6 | sort | tr ':' '\n'
